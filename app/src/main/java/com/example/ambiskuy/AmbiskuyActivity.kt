@@ -18,8 +18,8 @@ class AmbiskuyActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            AmbiskuyTheme {
-
+            AmbiskuyTheme(darkTheme = false) {
+                AmbiskuyContent()
             }
         }
     }

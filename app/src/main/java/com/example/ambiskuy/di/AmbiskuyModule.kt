@@ -1,5 +1,6 @@
 package com.example.ambiskuy.di
 
+import android.content.Context
 import com.example.brain.data.datastore.DataStoreSource
 import com.example.brain.data.local.LocalDataSource
 import com.example.brain.data.remote.RemoteDataSource
@@ -8,6 +9,7 @@ import com.example.brain.di.BrainModule
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
+import dagger.hilt.android.qualifiers.ApplicationContext
 import dagger.hilt.components.SingletonComponent
 import javax.inject.Singleton
 
