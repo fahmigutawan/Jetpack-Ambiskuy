@@ -1,8 +1,5 @@
 package com.example.ambiskuy.helper
 
-fun isLoggedIn():Boolean{
+import com.google.firebase.auth.FirebaseAuth
 
-    /*TODO*/
-
-    return true
-}
+fun isLoggedIn():Boolean = FirebaseAuth.getInstance().currentUser != null

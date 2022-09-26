@@ -77,6 +77,7 @@ private fun ContentNavhostContent(
             startDestination = ContentNavigationMain.HomeScreen.name
         ) {
             composable(ContentNavigationMain.HomeScreen.name) {
+
             }
 
             composable(ContentNavigationMain.StudyTogetherScreen.name) {
